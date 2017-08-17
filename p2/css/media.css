@@ -1,0 +1,119 @@
+/************************************
+
+Responsive Web Page
+Desgined By Misbauddin Chowdhury Shahan
+fiverr.com/shahan953
+
+***************************************/
+
+/* Smaller than standard 1169 (devices and browsers) */
+@media only screen and (max-width:1169px){
+	.innerContent  {
+	    width: 97%;
+	}
+	.widget{
+		width: 18.5%;
+	}
+}
+
+/* Smaller than standard 1139 (devices and browsers) */
+@media only screen and (max-width:1100px){
+	.widget{
+		width: 18%;
+	}	
+	.innerContent  {
+	    margin-left:2.5%;
+	}
+	#overlay{min-height: 65%;overflow: hidden;}
+}
+
+/* Smaller than standard 1024 (devices and browsers) */
+@media only screen and (max-width:1024px){
+	.widget{width: 18%;}
+	.widget_5{margin-right: auto;}
+
+
+	#overlay{
+		width: 80%;
+		overflow: hidden;
+		font-size: 16px
+	}
+}
+
+/* Smaller than standard 1024 (devices and browsers) */
+@media only screen and (max-width:1023px){
+}
+/* Similar than small screen desktop*/
+@media only screen and (max-width: 991px) {
+	#overlay{height: 65%;}
+
+	.widget{
+		width: 22%;
+		margin-right:3%;
+	}
+
+	.main_menu ul li a{
+		padding:15px;
+		font-size: 15px;
+	}
+
+	.logo img{
+		width:100px;
+	}
+
+	.auth{
+		padding: 6px;
+	}
+	header{
+		min-height: 40px;
+	}
+}
+
+/* All Tablet Size (devices and browser) */
+ @media only screen and (max-width:767px){
+
+ 	.widget{
+ 		width: 31%;
+ 		margin-right:2%
+ 	}
+ 	.main_menu{
+		width:100%;
+	}
+
+	#overlay{display: none;}
+	.section h1{
+		font-size: 25px;
+	}
+
+}
+
+/* All Tablet (devices and browser) */
+ @media only screen and (max-width:700px){
+ 	.widget{
+ 	}
+}
+
+
+/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+@media only screen and (max-width:479px){
+	header{margin-top:10px;}
+	.main_menu{width: 98%}
+
+ 	.widget{
+ 		width: 48%;
+ 		margin-right: 5px;
+ 	}
+ 	.logo {margin-left:5px;}
+ 	.auth{margin-right: 5px;}
+
+ 	.main_menu {
+ 		margin-bottom:10px;
+ 	}
+ 	.main_menu ul li a{
+		padding: 8px;
+	    font-size: 16px;
+	}
+	.section h1{
+		font-size: 20px;
+	}
+}
